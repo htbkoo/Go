@@ -2,8 +2,12 @@
 // Click here and start typing.
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/htbkoo/go/go_stringutil"
+)
 
 func main() {
-	fmt.Println("Hello, 世界")
+	fmt.Println(go_stringutil.Reverse("界世 ,olleH"))
 }
