@@ -1,0 +1,13 @@
+type: theory
+files:
+  - name: task.go
+    visible: true
+    learner_created: false
+  - name: go.mod
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  time: "Wed, 20 Dec 2023 02:00:53 UTC"
+record: -1
+post_submission_on_open: true
