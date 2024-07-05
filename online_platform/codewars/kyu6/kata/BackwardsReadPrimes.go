@@ -31,45 +31,45 @@ func reverse(x int) int {
 	return r
 }
 
-var primes []int
-var primesSet map[int]struct{}
+//var primes []int
+//var primesSet map[int]struct{}
 
 func isPrime(x int) bool {
-	_, ok := primesSet[x]
-	if ok {
-		return true
-	}
-
-	//for i := 2; i*i <= x; i++ {
-	//	if x%i == 0 {
-	//		return false
-	//	}
+	//_, ok := primesSet[x]
+	//if ok {
+	//	return true
 	//}
 
-	for _, p := range primes {
-		if x%p == 0 {
+	for i := 2; i*i <= x; i++ {
+		if x%i == 0 {
 			return false
-		}
-		if p*p > x {
-			break
 		}
 	}
 
-	primesSet[x] = struct{}{}
+	//for _, p := range primes {
+	//	if x%p == 0 {
+	//		return false
+	//	}
+	//	if p*p > x {
+	//		break
+	//	}
+	//}
+	//
+	//primesSet[x] = struct{}{}
 
 	return true
 }
 
 func BackwardsPrime(start int, stop int) []int {
-	primes = make([]int, 0)
-	primesSet = make(map[int]struct{})
+	//primes = make([]int, 0)
+	//primesSet = make(map[int]struct{})
 
 	// your code
-	for i := 2; i <= stop; i++ {
-		if isPrime(i) {
-			primes = append(primes, i)
-		}
-	}
+	//for i := 2; i <= stop; i++ {
+	//	if isPrime(i) {
+	//		primes = append(primes, i)
+	//	}
+	//}
 
 	answer := make([]int, 0)
 	for i := start; i <= stop; i++ {
