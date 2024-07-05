@@ -4,15 +4,15 @@ files:
     visible: true
     placeholders:
       - offset: 514
-        length: 7
+        length: 6
         placeholder_text: '*Vertex'
         initial_state:
           length: 7
           offset: 514
         initialized_from_dependency: false
         encrypted_possible_answer: laqdYt8Gt83Nu1Yn9hBlHg==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: go.mod
     visible: false
@@ -20,5 +20,8 @@ files:
   - name: test/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 05 Jul 2024 02:45:19 UTC"
 record: -1
