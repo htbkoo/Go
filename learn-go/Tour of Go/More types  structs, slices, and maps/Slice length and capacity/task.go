@@ -15,8 +15,8 @@ func main() {
 	printSlice(s)
 
 	// Extend its length.
-	s = s[:7]
-	printSlice(s)
+	//s = s[:7]
+	//printSlice(s)
 
 	// Drop its first two values.
 	s = s[2:]
