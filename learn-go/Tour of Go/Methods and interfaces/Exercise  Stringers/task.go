@@ -8,6 +8,21 @@ type IPAddr [4]byte
 
 // TODO: Add a "String" method that is defined on values of type "IPAddr" (with "ip" being the receiver) and returns a string.
 
+/*
+func (ip IPAddr) String() string {
+	var sb bytes.Buffer
+	sb.WriteString(fmt.Sprintf("%d", ip[0]))
+
+	for i, p := range ip {
+		if i > 0 {
+			sb.WriteString(fmt.Sprintf(".%d", p))
+		}
+	}
+
+	return sb.String()
+}
+*/
+
 func (ip IPAddr) String() string {
 	return fmt.Sprintf("%d.%d.%d.%d", ip[0], ip[1], ip[2], ip[3])
 }
