@@ -3,8 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	a := m
-	ake([]int, 5)
+	a := make([]int, 5)
 	printSlice("a", a)
 
 	b := make([]int, 0, 5)

@@ -18,6 +18,7 @@ func (c *SafeCounter) Inc(key string) {
 	// Lock so only one goroutine at a time can access the map c.v.
 	c.v[key]++
 	c.mu.Unlock()
+	c.mu.Unlock()
 }
 
 // Value returns the current value of the counter for the given key.

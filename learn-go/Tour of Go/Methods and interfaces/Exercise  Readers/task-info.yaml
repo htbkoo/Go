@@ -14,7 +14,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 94pBusalkN/bPL94CtVnBqjDZUQMMqDczejGRhwHVF6R9yDbGuRQ8SEi9l2ZoP1dUSxSSWWPqWh09i4J30imd3AJBHUi80NoCjQh66g9h2zIujL+cU+x1gLI2IcKtqlV8UhDcY1YST34NNjlArIo7g==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: go.mod
     visible: false
@@ -25,5 +25,8 @@ files:
   - name: go.sum
     visible: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 05 Jul 2024 11:14:15 UTC"
 record: -1

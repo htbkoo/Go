@@ -4,7 +4,7 @@ files:
   - name: task.go
     visible: true
     placeholders:
-      - offset: 49
+      - offset: 54
         length: 126
         placeholder_text: "// TODO: Add a \"String\" method that is defined on values\
       \ of type \"IPAddr\" (with \"ip\" being the receiver) and returns a string."
@@ -14,7 +14,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: jb8va7/mPZvZsInUrZKNH/QVr0AnDel78JhkC6Dam9g2QkZHtRcyxqmyjpkrtFwzxXthTH6SnAq7RkvdTJqRS4Ll5uUuffspsnuive5zI/XbXvHg3qOp2wWHjqCTITM53JUEUzObH9L9ijX8fJDfTg==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: go.mod
     visible: false
@@ -22,5 +22,8 @@ files:
   - name: test/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 05 Jul 2024 10:12:44 UTC"
 record: -1
